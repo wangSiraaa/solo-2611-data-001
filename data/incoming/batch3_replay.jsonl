@@ -1,0 +1,5 @@
+{"event_id": "e-m1-10", "meter_id": "M1", "minute_utc": "2026-11-12T16:00:00Z", "revision": 1, "op": "upsert", "wh": 110}
+{"event_id": "e-m2-06", "meter_id": "M2", "minute_utc": "2026-11-12T16:01:00Z", "revision": 1, "op": "upsert", "wh": 210}
+{"event_id": "e-m2-07", "meter_id": "M2", "minute_utc": "2026-11-12T16:00:00Z", "revision": 1, "op": "upsert", "wh": 200}
+{"event_id": "e-m2-05", "meter_id": "M2", "minute_utc": "2026-11-12T16:00:00Z", "revision": 2, "op": "delete"}
+{"event_id": "e-m3-02", "meter_id": "M3", "minute_utc": "2026-11-12T16:11:00Z", "revision": 1, "op": "upsert", "wh": 410}

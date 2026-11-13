@@ -1,0 +1,2 @@
+{"event_id": "e-t-01", "meter_id": "M9", "minute_utc": "2026-11-12T16:20:00Z", "revision": 1, "op": "upsert", "wh": 10}
+{"event_id": "e-t-02", "meter_id": "M9", "minute_utc": "2026-11-12T16:21:00Z", "revision": 1, "op": "upsert", "wh": 20}

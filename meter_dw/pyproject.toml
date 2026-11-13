@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meter-dw"
+version = "1.0.0"
+description = "电表分钟用电数据可恢复增量入仓（Python 3.11 + PostgreSQL 16）"
+requires-python = ">=3.11"
+dependencies = ["psycopg[binary]>=3.2,<4"]
+
+[project.scripts]
+meter-dw = "meter_dw.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["meter_dw*"]
